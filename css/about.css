@@ -1,0 +1,51 @@
+
+body{margin: 0px;
+padding: 0px;}
+.background {
+    background-image: url(about.gym.jpeg);
+    width:100%;height: 1000px;
+}
+.ol h1{text-align: 
+    center;color: white;
+font-size: 70px
+;position: absolute;
+top: 175px;
+left: 250px;
+font-family:italic}
+.what{display: flex;
+    padding: 25px;}
+.paragraph{color: white;
+    background-color: black;}
+.paragraph h1{font-size: 25px}
+.what h1{padding: 50px;}
+.what p{padding: 20px;}
+.paragraph p{font-size: 20px;}
+.team{background-color: black;
+    color: white;
+    text-align: center;height: 50px;}
+.team h1{padding: 10px;}
+.our{display: flex;}
+.our img{height: 225px;}
+.our div{position: relative;
+    left: 500px;}
+.our img{padding: 50px;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+border-top-right-radius: 100px;
+border-top-left-radius:100px ;}
+    
+@media only screen and (max-width:1050px){
+    html{width: 100%;}
+    .background{width:1500px}
+    .what{flex-direction: column;
+        width: 500px;
+    ;}
+    .what img{margin: 320px;}
+    .paragraph{padding: 100px;
+    width: 1280px;}
+    .what p{font-size: 50px;}
+    .our{flex-direction: column;
+    width: 100%;}
+    .team{width: 1500px;}
+}
+ 
