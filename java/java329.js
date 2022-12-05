@@ -1,5 +1,4 @@
-alert ("ARE U INTERSECTED IN GYM")
-let ok=prompt("what is ur name")
+
 let c=document.getElementsByClassName("BEST")[0]
 c.style.color ="whitesmoke";
 let n=document.querySelectorAll(".GYME")
