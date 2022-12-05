@@ -1,0 +1,11 @@
+.thnku
+{text-align: center;
+  margin-top: 100px; 
+  height: 500px; 
+  font-size: 15px;font-style: italic;color: rgb(20, 21, 22);}
+.thnku h1  {padding: 150px;}
+.thnku1{padding: 100px;}
+@media only screen and (max-width:980px)
+{body{background-repeat: no-repeat;}
+}
+
